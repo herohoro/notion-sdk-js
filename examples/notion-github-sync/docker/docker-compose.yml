@@ -5,6 +5,6 @@ services:
     image: node_npm
     tty: true
     volumes:
-      - ../:/usr/src/app
+      - ../../../:/usr/src/app
     ports:
       - "8080:3000"
